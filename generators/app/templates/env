@@ -1,0 +1,3 @@
+NODE_ENV=local
+REALM=pokemon
+PORT=3000

@@ -1,0 +1,33 @@
+{
+  /**
+   * Application configuration section
+   * http://pm2.keymetrics.io/docs/usage/application-declaration/
+   */
+  apps : [
+
+    // First application
+    {
+      name      : "<%=appname%>",
+      script    : "app.js",
+      "node_args": "--require dotenv/config",
+      //exec_interpreter: "./node_modules/.bin/babel-node",
+      "watch": true,
+      "ignore_watch" : ["node_modules", ".git", ".gitignore", "npm-debug.log"]
+    }
+  ],
+
+  /**
+   * Deployment section
+   * http://pm2.keymetrics.io/docs/usage/deployment/
+   */
+  deploy : {
+    // production : {
+    //   user : "node",
+    //   host : "212.83.163.1",
+    //   ref  : "origin/master",
+    //   repo : "git@github.com:repo.git",
+    //   path : "/var/www/production",
+    //   "post-deploy" : "npm install ; pm2 startOrRestart ecosystem.json --env production"
+    // }
+  }
+}
