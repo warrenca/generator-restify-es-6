@@ -1,5 +1,5 @@
-# generator-restify-es-6 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Restify boilerplate in ES6
+# generator-restify-es-6 [![NPM version][npm-image]][npm-url]
+## Restify boilerplate in ES6
 
 ## Installation
 
