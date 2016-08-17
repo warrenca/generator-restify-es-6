@@ -2,10 +2,10 @@
   "name": "generator-restify-es-6",
   "version": "0.0.1",
   "description": "Restify boilerplate in ES6",
-  "homepage": "https://github.com/warrenca/generator-restify-es6",
+  "homepage": "https://github.com/warrenca/generator-restify-es-6",
   "author": {
     "name": "WarrenCA",
-    "url": ""
+    "url": "https://github.com/warrenca/generator-restify-es-6"
   },
   "files": [
     "generators"
@@ -51,5 +51,5 @@
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  "license": "Apache-2.0"
+  "license": "GPLv3"
 }
