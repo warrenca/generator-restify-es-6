@@ -1,5 +1,5 @@
-# generator-restify-es-6 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Restify boilerplate in ES6
+# generator-restify-es-6 [![NPM version][npm-image]][npm-url]
+## Restify boilerplate in ES6
 
 ## Installation
 
@@ -25,7 +25,7 @@ yo restify-es-6
 
 ## License
 
-Apache-2.0 © [WarrenCA]()
+GPLv3.0 © [WarrenCA]()
 
 
 [npm-image]: https://badge.fury.io/js/generator-restify-es-6.svg
