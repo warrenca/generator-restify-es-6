@@ -25,7 +25,7 @@ yo restify-es-6
 
 ## License
 
-Apache-2.0 © [WarrenCA]()
+GPLv3.0 © [WarrenCA]()
 
 
 [npm-image]: https://badge.fury.io/js/generator-restify-es-6.svg
