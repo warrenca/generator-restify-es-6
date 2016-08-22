@@ -11,7 +11,7 @@ var bunyanLogger = bunyan.createLogger({
     err: bunyan.stdSerializers.err
   }
 });
-var port = process.env.PORT || '4003';
+var port = process.env.PORT || '3000';
 var server = restify.createServer();
 
 global.errors = errors;
