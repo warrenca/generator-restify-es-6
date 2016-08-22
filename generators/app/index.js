@@ -174,6 +174,10 @@ module.exports = yeoman.Base.extend({
         this.templatePath('README.md'),
         this.destinationPath('README.md')
       );
+      this.fs.copy(
+        this.templatePath('.gitignore'),
+        this.destinationPath('.gitignore')
+      );
     },
     //Install Dependencies
     install: function() {
