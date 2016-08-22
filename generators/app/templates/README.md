@@ -28,6 +28,6 @@ application if you run with test.
 
 ```env.sample``` is the file where it contains the KEYS for your environment
 variables. When the application run, it checks if the KEYS contain a different
-value than XXXXXX (see bootstrap/init.es lines 23-36). The application will not
+value than XXXXXX ([see bootstrap/init.es lines 23-36](https://github.com/warrenca/generator-restify-es-6/blob/master/generators/app/templates/bootstrap/init.es#L23-L36)). The application will not
 run and will throw an error message with the missing required environment
 variables. This should be tracked in git.
