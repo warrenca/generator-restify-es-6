@@ -170,6 +170,10 @@ module.exports = yeoman.Base.extend({
         this.templatePath('Dockerfile'),
         this.destinationPath('Dockerfile')
       );
+      this.fs.copy(
+        this.templatePath('README.md'),
+        this.destinationPath('README.md')
+      );
     },
     //Install Dependencies
     install: function() {
