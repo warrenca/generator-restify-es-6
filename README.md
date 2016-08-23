@@ -16,6 +16,8 @@ Then generate your new project:
 yo restify-es-6
 ```
 
+## View the generated application [README ☺](https://github.com/warrenca/generator-restify-es-6/blob/master/generators/app/templates/README.md)
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.
