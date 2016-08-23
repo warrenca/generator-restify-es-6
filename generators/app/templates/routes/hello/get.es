@@ -5,7 +5,9 @@ module.exports = (server) => {
     var someOptions = {};
 
     var nameAdaptor = new NameAdaptor(someConfig, someOptions);
-    var message = `Hello trainer ${req.params.name.toUpperCase()}, I am Professor ${nameAdaptor.random()}. You are in ${process.env.REALM.toUpperCase()} world!`;
+    var message = `Hello trainer ${req.params.name.toUpperCase()},
+I am Professor ${nameAdaptor.random()}.
+You are in the ${process.env.REALM.toUpperCase()} world!`;
     res.send(200, {message:message});
 
     return next();

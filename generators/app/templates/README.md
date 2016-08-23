@@ -33,7 +33,9 @@ run and will throw an error message with the missing required environment
 variables. This should be tracked in git.
 
 ## Accessing the hello API endpoint
-```
-$ curl -x GET http://localhost:3000/hello/ash
-Hello trainer ASH, I am Professor Noah. You are in POKEMON world!
+```bash
+#curl -x GET http://localhost:3000/{namespace}/hello/Ash
+#From our installation, we used "restify-es-6" as the namespace
+$ curl -x GET http://localhost:3000/restify-es-6/hello/Ash
+Hello trainer ASH, I am Professor Oak. You are in POKEMON world!
 ```

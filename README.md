@@ -14,9 +14,55 @@ Then generate your new project:
 
 ```bash
 yo restify-es-6
+
+
+     _-----_
+    |       |    ╭──────────────────────────╮
+    |--(o)--|    │   Let's create RESTify   │
+   `---------´   │      server in ES6!      │
+    ( _´U`_ )    ╰──────────────────────────╯
+    /___A___\   /
+     |  ~  |
+   __'.___.'__
+ ´   `  |° ´ Y `
+
+? Your project name restify-es-6
+? The namespace of your project restify-es-6
+? Your project description Description of restify-es-6
+? Your project URL https://github.com/myname/myproject.git
+
+
+I'm all done. Running npm install && bower install for you to install the required dependencies. If this fails, try running the command yourself.
+
+
+   create package.json
+   create adaptors/nameFinderAdaptor.es
+   create bootstrap/init.es
+   create bootstrap/locator.es
+   create config/common.api.json
+   create config/local.api.json
+   create config/test.api.json
+   create routes/hello/get.es
+   create services/serviceList.es
+   create services/staticNameFinderService.es
+   create test/helpers.es
+   create test/routes/hello/.gitkeep
+   create ecosystem.json5
+   create .babelrc
+   create .env
+   create .env.sample
+   create .env.test.ini
+   create .editorconfig
+   create .eslintrc.json
+   create .gitignore
+   create Gruntfile.js
+   create app.js
+   create server.es
+   create Dockerfile
+   create README.md
 ```
 
-## View the generated application [README ☺](https://github.com/warrenca/generator-restify-es-6/blob/master/generators/app/templates/README.md)
+## View the generated application <u>[README ☺](https://github.com/warrenca/generator-restify-es-6/blob/master/generators/app/templates/README.md)</u>
 
 ## Getting To Know Yeoman
 

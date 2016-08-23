@@ -21,7 +21,7 @@ module.exports = yeoman.Base.extend({
 
     return this.prompt([{
       type    : 'input',
-      name    : 'name',
+      name    : 'appname',
       message : 'Your project name',
       default : appname // Default to current folder name
     },
@@ -39,7 +39,7 @@ module.exports = yeoman.Base.extend({
       type    : 'input',
       name    : 'project_url',
       message : 'Your project URL',
-      default : "" // Default to current folder name
+      default : "https://github.com/"
     }]).then(function (answers) {
       this.props = answers
       done();
