@@ -72,9 +72,7 @@ I'm all done. Running npm install && bower install for you to install the requir
  * Feel free to [learn more about Yeoman](http://yeoman.io/).
 
 ## License
-
-GPLv3.0 © [WarrenCA]()
-
+The generator-restify-es-6 is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 [npm-image]: https://badge.fury.io/js/generator-restify-es-6.svg
 [npm-url]: https://npmjs.org/package/generator-restify-es-6
