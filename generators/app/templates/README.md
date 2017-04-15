@@ -38,4 +38,6 @@ variables. This should be tracked in git.
 #From our installation, we used "restify-es-6" as the namespace
 $ curl -x GET http://localhost:3000/restify-es-6/hello/Ash
 Hello trainer ASH, I am Professor Oak. You are in POKEMON world!
+$ curl -X GET http://localhost:3000/restify-es-6/health
+{ "status": true }
 ```
