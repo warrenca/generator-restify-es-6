@@ -5,7 +5,8 @@ var yeoman = require('yeoman-generator'),
     yosay = require('yosay'),
     _s    = require('underscore.string'),
     path  = require('path'),
-    mkdirp = require('mkdirp');
+    mkdirp = require('mkdirp'),
+    packagejson = require('../../package.json');
 
 module.exports = yeoman.Base.extend({
   //Ask for user input
@@ -13,7 +14,8 @@ module.exports = yeoman.Base.extend({
     var done = this.async();
     // have Yeoman greet the user
     this.log(yosay(
-          'Let\'s create ' + chalk.red('RESTify server in ES6') + '!'
+          'Let\'s create ' + chalk.red('RESTify server in ES6') + "!\n"
+          + chalk.green('~~Now on v' + packagejson.version + '~~')
         ));
 
     var appname = path.basename(process.cwd());

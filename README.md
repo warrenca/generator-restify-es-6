@@ -13,23 +13,21 @@ npm install -g generator-restify-es-6
 Then generate your new project:
 
 ```bash
-yo restify-es-6
 
-
-     _-----_
-    |       |    ╭──────────────────────────╮
-    |--(o)--|    │   Let's create RESTify   │
-   `---------´   │      server in ES6!      │
+     _-----_     ╭──────────────────────────╮
+    |       |    │   Let's create RESTify   │
+    |--(o)--|    │      server in ES6!      │
+   `---------´   │     ~~Now on v0.1.0~~    │
     ( _´U`_ )    ╰──────────────────────────╯
     /___A___\   /
      |  ~  |
    __'.___.'__
  ´   `  |° ´ Y `
 
-? Your project name restify-es-6
-? The namespace of your project restify-es-6
-? Your project description Description of restify-es-6
-? Your project URL https://github.com/myname/myproject.git
+? Your project name restify-fix
+? The namespace of your project restify-fix
+? Your project description Description of restify-fix
+? Your project URL https://github.com/username/restify-fix
 
 
 I'm all done. Running npm install && bower install for you to install the required dependencies. If this fails, try running the command yourself.
