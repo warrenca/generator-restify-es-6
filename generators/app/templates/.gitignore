@@ -42,4 +42,4 @@ jspm_packages
 
 # environment
 .env
-env.test.ini
+.env.test.ini
