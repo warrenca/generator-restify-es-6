@@ -68,7 +68,7 @@ module.exports = yeoman.Base.extend({
 
       mkdirp('config');
       this.fs.copyTpl(
-        this.templatePath('config/_common.api.json'),
+        this.templatePath('config/common.api.json'),
         this.destinationPath('config/common.api.json'),
         { namespace: _s.slugify(this.props.namespace) }
       );
@@ -106,18 +106,18 @@ module.exports = yeoman.Base.extend({
         this.destinationPath('test/helpers.es')
       );
       this.fs.copy(
-        this.templatePath('test/routes/hello/.gitkeep'),
+        this.templatePath('test/routes/hello/_gitkeep'),
         this.destinationPath('test/routes/hello/.gitkeep')
       );
 
       this.fs.copyTpl(
-        this.templatePath('_ecosystem.json5'),
+        this.templatePath('ecosystem.json5'),
         this.destinationPath('ecosystem.json5'),
         { appname: this.props.appname }
       );
 
       this.fs.copyTpl(
-        this.templatePath('_package.json'),
+        this.templatePath('package.json'),
         this.destinationPath('package.json'),
         {
           appname: this.props.appname,
@@ -127,31 +127,31 @@ module.exports = yeoman.Base.extend({
       );
 
       this.fs.copy(
-        this.templatePath('babelrc'),
+        this.templatePath('_babelrc'),
         this.destinationPath('.babelrc')
       );
       this.fs.copy(
-        this.templatePath('env'),
+        this.templatePath('_env'),
         this.destinationPath('.env')
       );
       this.fs.copy(
-        this.templatePath('env.sample'),
+        this.templatePath('_env.sample'),
         this.destinationPath('.env.sample')
       );
       this.fs.copy(
-        this.templatePath('env.test.ini'),
+        this.templatePath('_env.test.ini'),
         this.destinationPath('.env.test.ini')
       );
       this.fs.copy(
-        this.templatePath('editorconfig'),
+        this.templatePath('_editorconfig'),
         this.destinationPath('.editorconfig')
       );
       this.fs.copy(
-        this.templatePath('eslintrc.json'),
+        this.templatePath('_eslintrc.json'),
         this.destinationPath('.eslintrc.json')
       );
       this.fs.copy(
-        this.templatePath('gitignore'),
+        this.templatePath('_gitignore'),
         this.destinationPath('.gitignore')
       );
       this.fs.copy(
@@ -173,10 +173,6 @@ module.exports = yeoman.Base.extend({
       this.fs.copy(
         this.templatePath('README.md'),
         this.destinationPath('README.md')
-      );
-      this.fs.copy(
-        this.templatePath('.gitignore'),
-        this.destinationPath('.gitignore')
       );
     },
     //Install Dependencies
