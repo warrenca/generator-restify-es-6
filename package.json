@@ -1,6 +1,6 @@
 {
   "name": "generator-restify-es-6",
-  "version": "0.1.4",
+  "version": "v0.1.5",
   "description": "Restify boilerplate in ES6",
   "homepage": "https://github.com/warrenca/generator-restify-es-6",
   "author": {
