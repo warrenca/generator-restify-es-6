@@ -51,5 +51,10 @@
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
+  {
+    "engines": {
+      "node": "8.9.3"
+    } 
+  },
   "license": "MIT"
 }
