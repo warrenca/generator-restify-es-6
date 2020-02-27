@@ -1,6 +1,6 @@
 {
   "name": "generator-restify-es-6",
-  "version": "v0.1.5",
+  "version": "v0.1.6",
   "description": "Restify boilerplate in ES6",
   "homepage": "https://github.com/warrenca/generator-restify-es-6",
   "author": {
@@ -51,10 +51,9 @@
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  {
-    "engines": {
-      "node": "8.9.3"
-    } 
+  "engines": {
+    "node": "8.9.3",
+    "npm": "5.5.1"
   },
   "license": "MIT"
 }
